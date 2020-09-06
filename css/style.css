@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    margin: 10px;
+    padding: 0%;
+}
+
+nav .link {
+    text-decoration: none;
+    color: black;
+    line-height: 24px;
+}
+
+nav .link:hover {
+    text-decoration: underline;
+}
+
+nav .btn {
+    padding: 6px 12px;
+    background: #3276eb;
+    border: 1px solid #498afa;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: default;
+}
+
+.logo img {
+    height: 92px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.search {
+    margin-top: 28px;
+    padding: 10px 6px;
+    padding-left: 10px;
+    height: 44px;
+    display: flex;
+    border: 1px solid rgba(100, 100, 100, 0.233);
+    border-radius: 24px;
+}
+
+.search img {
+    width: 22px;
+    padding: 4px;
+}
+
+.search input {
+    margin: 0;
+    padding-left: 6px;
+    width: 564px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.btns {
+    margin-top: 36px;
+    display: flex;
+    gap: 10px;
+}
+
+.btns a {
+    padding: 6px 12px;
+    background: #e9e9e9;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btns a:hover {
+    border: 1px solid black;
+}
+
+.offered {
+    margin-top: 24px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+footer .location {
+    padding: 10px;
+    color: rgb(97, 97, 97);
+}
+
+footer .links a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    line-height: 24px;
+    padding: 10px;
+}
+
+footer .links a:hover {
+    text-decoration: underline;
+}
+
+footer .links {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
